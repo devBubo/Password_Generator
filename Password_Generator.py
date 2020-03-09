@@ -9,3 +9,5 @@ for char in range(lenght):
         print(alphabet[randint(0,len(alphabet))-1],end='')
     elif n==1:
         print(numbers[randint(0,len(numbers)-1)],end='')
+    elif n==2:
+        print(symbols[randint(0, len(symbols) - 1)], end='')
